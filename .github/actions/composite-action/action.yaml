@@ -6,6 +6,4 @@ runs:
   steps:
     - name: Print message
       shell: bash
-      run: | 
-        echo "Hello from Composite Action"
-        echo "This is a simple composite action that prints a message"
+      run: echo "Hello from Composite Action"
