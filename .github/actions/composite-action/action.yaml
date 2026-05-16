@@ -1,0 +1,11 @@
+name: My Composite Action
+description: Prints a message
+
+runs:
+  using: composite
+  steps:
+    - name: Print message
+      shell: bash
+      run: | 
+        echo "Hello from Composite Action"
+        echo "This is a simple composite action that prints a message"

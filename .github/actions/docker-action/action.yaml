@@ -1,0 +1,6 @@
+name: My Docker Action
+description: Docker custom action
+
+runs:
+  using: docker
+  image: Dockerfile
