@@ -6,4 +6,6 @@ runs:
   steps:
     - name: Print message
       shell: bash
-      run: echo "Hello from Composite Action"
+      run: |
+        echo "Hello from Composite Action"
+        echo "This is a custom composite action for GitHub Actions."
